@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1> Study Planner & Performance Tracker</h1>
+
+<div class="container">
+    <h2>Add Study Task</h2>
+    <input type="text" id="subject" placeholder="Subject">
+    <input type="text" id="description" placeholder="Description">
+    <input type="number" id="hours" placeholder="Hours">
+    <button onclick="addTask()">Add Task</button>
+</div>
+
+<div class="container">
+    <h2>Add Marks</h2>
+    <input type="text" id="markSubject" placeholder="Subject">
+    <input type="number" id="marks" placeholder="Marks">
+    <button onclick="addMarks()">Add Marks</button>
+</div>
+
+<div class="container">
+    <h2>All Tasks</h2>
+    <ul id="taskList"></ul>
+</div>
+
+<div class="container">
+    <h2>Performance</h2>
+    <ul id="performanceList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
